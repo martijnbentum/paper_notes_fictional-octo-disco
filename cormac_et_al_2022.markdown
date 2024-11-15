@@ -1,5 +1,7 @@
 Cormac et al. 2022 
 
+https://aclanthology.org/2022.sigmorphon-1.9.pdf
+
 # Domain-Informed Probing of wav2vec 2.0 Embeddings for Phonetic Features
 
 Use probing to investigate phonetic and phonemic representation in the internal layers of the wav2vec 2 model.
