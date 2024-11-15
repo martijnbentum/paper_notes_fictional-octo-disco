@@ -47,4 +47,5 @@ for the remainder of our analysis."
 ## Multilingual (results)
 - also similarity for synonyms across languages. Still, closer representations for near-homophones than synonyms.
 
-# Conclusion: No hierarchy phonetics/ semantics.
+# Conclusion: 
+No hierarchy phonetics/ semantics.
