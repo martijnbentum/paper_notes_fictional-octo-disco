@@ -1,9 +1,14 @@
-Choi et al. 2022 
+Choi et al. 2024 
 
 # Self-Supervised Speech Representations are More Phonetic than Semantic
 
+https://www.isca-archive.org/interspeech_2024/choi24b_interspeech.pdf
+
 RQ: Are they encoding semantic or phonetic features (or both)?
 Is S3M performance based on semantic knowledge?
+
+BoW for intent classification shows high performance on  Fluent speech commands (FSC)
+Test to what extend s3m have semantic representations
 
 Use slicing and pooling in different versions, to compare phonetic/phonological and semantic representation in the internal layers of [ wav2vec2.0-Base, -Large; Hubert-Base, -Large, XLS-R-300M, WavLM-Large ].
 Trained on English or multiple languages (XLS-R-300M).
@@ -20,11 +25,23 @@ x
 	English vs.
 	multilingual (no Same-speaker; near-homophone and synset pairs always pair English-other language words)
 
-# DVs:
+# Method
+
+## DVs:
 	
 Slicing: feature slicing (take model states from activation for whole utterance) vs. audio slicing (slice audio, present only relevant slice, extract model state)
 Pooling on mean (of all slices), center (of all slices), centroid (most similar in cosine to all slices).
-Trained multi-layer perceptron (MLP) with default scikit-learn parameters
+
+Compaired word representations with cosine similarity
+	-random
+ 	-synonym
+  	-near homophone
+   	-same word
+
+
+??Trained multi-layer perceptron (MLP) with default scikit-learn parameters??
+
+
 
 # Results
 ## English
