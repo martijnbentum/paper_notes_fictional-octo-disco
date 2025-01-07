@@ -38,7 +38,7 @@ The clustering reveals a division between:
 - wav2vec xlsr
    - obstruent
    - sonorant
-- surprising: the /h/ is grouped with plosives
+- surprising: the /h/ is grouped with plosives TL: maybe because of long VOT
 - lowest level reflects voiced vs unvoiced
 
 - correlation of JSD with phonetic feature vector (PHOIBLE) reveals a Pearson correlation of ~ r .6 and when only considering vowels ~ r .8 (all correlations are significant)
