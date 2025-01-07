@@ -1,3 +1,5 @@
+https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00656/120586/What-Do-Self-Supervised-Speech-Models-Know-About
+
 Pasad et al.
 A. Pasad, C.-M. Chien, S. Settle, and K. Livescu. What Do Self-Supervised Speech Models
 Know About Words? Transactions of the Association for Computational Linguistics, 12:
