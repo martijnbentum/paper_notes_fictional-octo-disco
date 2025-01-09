@@ -39,7 +39,7 @@ Compaired word representations with cosine similarity
    	-same word
 
 
-??Trained multi-layer perceptron (MLP) with default scikit-learn parameters??
+
 
 
 
