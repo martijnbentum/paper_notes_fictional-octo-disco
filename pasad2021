@@ -6,6 +6,29 @@ Workshop (ASRU), pages 914–921, 2021. doi: 10.1109/ASRU51503.2021.9688093.
 
 https://arxiv.org/pdf/2107.04734
 
-# Method
-CCA
+# Models
+Wav2Vec2.0 Base and Large-60k, pretrained and finetuned-960
 
+# Data
+LibriSpeech -> Montreal forced aligner
+-> mean pooled for phoneme / word
+-> Mel filter bank
+-> Discrete clusters based on WAV2VEC embeddings 
+
+# Method
+
+Pooling over phone or word-length spans (mean pooling)
+
+CCA (PWCCA = Projection-Weighted for how much directions represent data, average of two directions, more robust against spurious correlations)
+
+MI Mutual Information between phone(me) or word representations and phoneme or word label with clusters (k=500 for phone, k=5000 for word)
+Word discrimination (if cosine of two word representations is above thresholds, words are considered same)
+Word similarity tasks (for semantics)
+
+# Results
+'autoencoder-style behavior' : first deviation from input, later going back to input details
+## Phonetic
+Correlation between filterbank and layers in both models, increases then decreases (though two peaks at 11 and 18-19 for Large with dip in middle)
+
+## Lexical (word identity)
+Same pattern, no dip in middel of Large. Pretrained models return to lower levels in later layers, finetuned does not.
