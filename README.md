@@ -1,9 +1,9 @@
 # paper_notes_fictional-octo-disco
 
 
-Pasad et al. (2021); TL
+Pasad et al. (2021); TL finished
 
-Wells et al. (2022);
+Wells et al. (2022); TL finished
 
 Choi and Yeo (2022); 
 
