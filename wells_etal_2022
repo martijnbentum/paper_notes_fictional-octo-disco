@@ -1,0 +1,22 @@
+  https://www.isca-archive.org/interspeech_2022/wells22_interspeech.pdf
+
+Wells et al 2022
+### Phonetic Analysis of Self-supervised Representations of English Speech
+
+# Model
+HuBERT
+
+# Method
+50 discrete units (roughly phoneme inventory).
+ VTCK corpus of English (41.6 hrs read speech, 110 speakers)
+Hubert-Base (pretrained on 960 hours of LibriSpeech)
+Hidden representations from 6th layer extracted.
+Discretized using 50, 100, 200, 500-means clustering derived from HuBERT-Base pretrained on train-clean-100h partition of LibriSpeech.
+
+Purity calculated for unit per phone: P(u|p) and P(p|u).
+(Decreased purity may indicate sensitivity to detail (e.g., allophones))
+Most frequent unit assigned to phone; most frequent phone labels for unit checked.
+Phones divided into articulatory classes (= manner of articulation).
+
+# Results
+Some units 
