@@ -1,7 +1,7 @@
 # paper_notes_fictional-octo-disco
 
 
-Pasad et al. (2021); TL finished
+Pasad et al. (2021); TL finished and added to CCA section 3.2.1
 
 Wells et al. (2022); TL finished
 
