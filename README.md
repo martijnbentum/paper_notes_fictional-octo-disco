@@ -2,11 +2,13 @@
 
 
 Pasad et al. (2021); TL finished and added to CCA section 3.2.1
+BibTeX Pasad2021
 
-Wells et al. (2022); TL finished
+Wells et al. (2022); TL finished and added to probing section 3.2.2 
+BibTeX  wells2022phonetic
 
 Choi and Yeo (2022); 
-
+BibTeX choi2022opening
 Chen et al. (2022); 
 
 Ashihara et al. (2023); MB
