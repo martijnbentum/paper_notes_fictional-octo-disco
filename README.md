@@ -7,10 +7,10 @@ BibTeX Pasad2021
 Wells et al. (2022); TL finished and added to probing section 3.2.2 
 BibTeX  wells2022phonetic
 
-Choi and Yeo (2022); 
+Choi and Yeo (2022); TL
 BibTeX choi2022opening
 
-Chen et al. (2022); 
+Chen et al. (2022); TL
 
 Ashihara et al. (2023); MB
 
