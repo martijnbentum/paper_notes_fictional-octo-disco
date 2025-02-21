@@ -22,3 +22,7 @@ BibTeX ma2021probing
 Lakhotia et al. (2021), TL
 
 Peng and Harwath (2022) TL
+BibTeX pengWordDiscoveryVisually2022a
+
+Peng et al 2023 TL
+BibTeX pengSyllableDiscoveryCrossLingual2023
