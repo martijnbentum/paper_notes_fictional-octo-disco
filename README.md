@@ -21,8 +21,8 @@ BibTeX ma2021probing
 
 Lakhotia et al. (2021), TL
 
-Peng and Harwath (2022) TL
+Peng and Harwath (2022) TL Giving up on understanding the probing in this paper.
 BibTeX pengWordDiscoveryVisually2022a
 
-Peng et al 2023 TL
+Peng et al 2023 TL finished.
 BibTeX pengSyllableDiscoveryCrossLingual2023
