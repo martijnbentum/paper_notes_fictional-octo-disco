@@ -1,5 +1,7 @@
 Choi et al. 2024 
 
+choi2024self
+
 # Self-Supervised Speech Representations are More Phonetic than Semantic
 
 https://www.isca-archive.org/interspeech_2024/choi24b_interspeech.pdf
