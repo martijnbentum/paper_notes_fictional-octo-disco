@@ -13,7 +13,7 @@ choi2024self
 Choi and Yeo (2022); TL
 BibTeX choi2022opening
 
-Chen et al. (2022); TL
+Chen et al. (2022); TL: not relevant
 
 Ashihara et al. (2023); MB
 
