@@ -1,3 +1,18 @@
 Deep Contextualized Acoustic Representations For Semi-Supervised Speech Recognition
 
+Shaoshi Ling, Yuzong Liu, Julian Salazar, Katrin Kirchhoff
+
 https://arxiv.org/abs/1912.01679
+
+# Method
+Not really a representational analysis
+
+# Conclusion
+" We first propose a novel
+objective for a deep bidirectional LSTM network, where large
+amounts of unlabeled data are used to learn deep contextualized
+acoustic representations (DeCoAR). These DeCoAR features are
+used as the representations of labeled data to train a CTC-based
+end-to-end ASR model. In our experiments, we show a 42% relative
+improvement on WSJ compared to a baseline trained on log-mel
+filterbank features. " 
